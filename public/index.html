@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin Towett - Front-end Developer</title>
+    <!-- Link our CSS stylesheet -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <!-- Header content with avatar and basic info -->
+            <!-- <img src="images/" alt="Avatar" class="avatar"> -->
+            <div class = "header-content">
+            <hi>Hi there! <br />My name is Franklin Towett</hi>
+            <div class="subtitle">
+                HTML5<span class="dot">.</span>
+                CSS<span class="dot">.</span>
+                JavaScript<span class="dot">.</span>
+                Python<span class="dot">.</span>
+                SQL<span class="dot">.</span>
+            </div>
+            <div class="contacts">
+                <a href="https://github.com/nyigan" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">
+                        <img src="images/github-mark.svg" alt="GitHub" />
+                    </span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://profile.codersrank.io/user/nyigan" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">
+                        <img src="images/codersrank.svg" alt="CodersRank" />
+                    </span>
+                    <span>CodersRank</span>
+                </a>
+                <a href="https://profile.codersrank.io/user/nyigan" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">
+                        <img src="images/In-Blue-14-┬«.png" alt="LinkedIn" />
+                    </span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com/7thfrank" target="_blank" rel="noopener noreferrer">
+                    <span class="icon">
+                        <img src="images/x-logo.svg" alt="Twitter" />
+                    </span>
+                    <span>Twitter</span>
+                </a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <h2>My Coding Activity & Stats</h2>
+
+            <!-- Summary widget -->
+            <p class="branding">Powered by <a href="https://profile.codersrank.io/user/nyigan" target="_blank"
+                    rel="noopener noreferrer">CodersRank</a></p>
+                <codersrank-summary class="widget" username="nyigan" show-avatar="false" show-header="false" min-width="420"
+                    branding="false">
+                </codersrank-summary>
+
+                <div class="widget activity-widget">
+                    <codersrank-activity username="nyigan" legend="false" labels tooltip step="5" svg-width="1120"
+                        branding="false">
+                    </codersrank-activity>
+                </div>
+
+            <!-- Activity widget -->
+                <div class="widget activity-widget">
+                    <codersrank-activity username="nyigan" legend="false" labels tooltip step="5" svg-width="1120"
+                        branding="false">
+                    </codersrank-activity>
+                </div>
+
+            <!-- Skills chart widget -->
+                <codersrank-skills-chart class="widget" username="nyigan" legend="false" tooltip labels
+                    skills="HTML5, CSS, JavaScript, Python, SQL" svg-width="1120" svg-height="400"
+                    branding="false">
+                </codersrank-skills-chart>
+        </section>
+        <section>
+            <h2>Recent Projects</h2>
+            <p>This is a work in progress section. Currently doing FreeCodeCamp courses and will update this soon!</p>
+            <!-- Portfolio widget -->
+                <codersrank-portfolio class="widget" username="nyigan" grid company="false"
+                    branding="false">
+                </codersrank-portfolio>
+        </section>
+        <section>
+            <h2>Work Experience & Education</h2>
+
+            <!-- Work experience widget -->
+            <codersrank-work-experience class="widget" username="nyigan" logos branding="false">
+
+            </codersrank-work-experience>
+
+            <!-- Education widget -->
+            <codersrank-education class="widget" username="nyigan" branding="false">
+
+            </codersrank-education>
+        </section>
+
+        <footer>
+            <!-- Generic footer copy -->
+            &copy; 2023. Franklin Towett.
+        </footer>
+    </main>
+
+<script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+<script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+<script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+<script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+<script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+<script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+</body>
+
+</html>
