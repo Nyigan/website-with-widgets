@@ -1,2 +1,2 @@
 # website-with-widgets
-Personal webite with widgets
+Personal website with widgets
