@@ -76,10 +76,10 @@ header h1 {
     margin: 1em 0;
 }
 
-.subtitle span.dot {
-    font-size: 14px;
+/* .subtitle span.dot {
+    font-size: 16px;
     opacity: 0.5;
-}
+} */
 
 .subtitle span[role="img"] {
     vertical-align: middle;
