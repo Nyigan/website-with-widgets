@@ -1,3 +1,3 @@
 # website-with-widgets
 Personal website with widgets
-URL: towett.netlify.app
+URL: https://towett.netlify.app
